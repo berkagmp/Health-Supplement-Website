@@ -8,6 +8,11 @@
     font-size: 20px;
     color: #111;
 } */
+.main_image{
+  width:100%;
+  margin:auto;
+  height:auto;
+}
 h3{
   color:#737373;
 }
