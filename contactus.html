@@ -16,14 +16,42 @@
 
 <div w3-include-html="nav.html"></div>
 
-<div>
+<div class="main_image">
   <img src="/image/contactus/contact_us_1900x1200.gif" alt="Image">
 </div>
 
 <div class="container">
-  <p>EMAIL: info@keyora.co.nz</a></p>
-  <p>TEL: 09-200 2002</P>
-  <p>ADDRESS: Unit i/4 Antares Pl, Rosedale, Auckland 0632</p>
+  <form id="email_form" method="post" action="mail.php">
+
+    <div id="contact" class="container-fluid bg-grey">
+      <h2 class="text-center">CONTACT</h2>
+      <div class="row">
+        <div class="col-sm-5">
+          <p>Contact us and we'll get back to you within 24 hours.<br /><br /></p>
+          <p><span class="glyphicon glyphicon-map-marker"></span>Unit i/4 Antares Pl, Rosedale, Auckland 0632</p>
+          <p><span class="glyphicon glyphicon-phone"></span> <a href="tel:6492002001">+64 9 200 2001</a></p>
+          <p><span class="glyphicon glyphicon-envelope"></span>support@keyora.co.nz</p>
+        </div>
+        <div class="col-sm-7 slideanim">
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            </div>
+          </div>
+          <textarea class="form-control" id="msg" name="msg" placeholder="Comment" rows="5"></textarea><br>
+          <div class="row">
+            <div class="col-sm-12 form-group">
+              <button class="btn btn-default pull-right" type="submit">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </form>
 </div>
 
 <div w3-include-html="footer.html"></div>
