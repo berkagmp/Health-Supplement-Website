@@ -1,0 +1,44 @@
+[
+  {
+    "product": [6,13],
+    "id": "1",
+    "name": "Blood Pressure & Circulation",
+    "description": "Uncontrolled blood pressure is one of several risk factors that increase the likelihood of fatal cardiovascular disease. Circulatory problems range from minor inconveniences to blood vessel rupture, to aesthetic problems such as painful and sick conditions. High levels of blood cholesterol and other fatty substances also increase the risk of circulatory problems."
+  },
+  {
+    "product": [2,3,7],
+    "id": "2",
+    "name": "Bones & Joint health",
+    "description": "Abnormalities in joints causes pain, stiffness and swelling, and may reduce mobility. Omega-3 fatty acids, anti-inflammatory agents found in fish oil, can reduce pain and minimize tissue damage. And New Zealand Green Lipped Mussels provide valuable nutrients that may support normal joint health.Calcium is also vital to building bones, countless functions in the body, hormone and enzyme secretion, and sending messages through the nervous system."
+  },
+  {
+    "product": [1,5],
+    "id": "3",
+    "name": "Detox",
+    "description": "We are exposed to toxins every day. Detox is the process of removing toxins to help keep and protect your body from illness and improve your ability to maintain optimal health. The most important point of a detox is to help your vital organs to clear toxins from your body, which helps to revitalise your digestive system."
+  },
+  {
+    "product": [8,9,11,10,12],
+    "id": "4",
+    "name": "General Health & Wellbeing",
+    "description": "Being healthy and keeping well is about making sure we eat well, move more, sleep better. Eating well can have positive benefits on your energy levels, concentration, memory and mood. And regular activity and exercise are essential for good health. Good sleep can improve mental performance, lead to less anxiety and improved mood and energy levels. There are a wide range of products within our range which also help to support daily health and vitality."
+  },
+  {
+    "product": [13],
+    "id": "5",
+    "name": "Heart",
+    "description": "Cardiovascular disease affects numerous people and is a major cause of death and disability. However, in many cases, attention to heart-conscious health choices can greatly diminish the risk of conditions such as heart attack, stroke, high blood pressure and circulatory problems."
+  },
+  {
+    "product": [4,8,9],
+    "id": "6",
+    "name": "Immune System",
+    "description": "The immune system prevents infection and helps to overcome it. It also categorizes infectious organisms and builds better defenses to fight well when it comes back to your body. The components of the immune system range from simple barrier defenses (eg: small hairs and mucus secretions of the nostrils) to sophisticated cells that recognize and ingest invading organisms."
+  },
+  {
+    "product": [11,3,7,6],
+    "id": "7",
+    "name": "Seniors Health",
+    "description": "As you get older, you become more vulnerable to health problems. Many conditions that we generally associate with aging can be alleviated or prevented through a healthy diet and lifestyle."
+  }
+]

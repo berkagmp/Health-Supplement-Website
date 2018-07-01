@@ -55,7 +55,7 @@ function getProducts() {
           document.getElementById("products").innerHTML = txt;
       }
   }
-  xmlhttp.open("GET", "/js/data.json", true);
+  xmlhttp.open("GET", "/js/product.json", true);
   xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
   xmlhttp.send();
 }
@@ -115,7 +115,75 @@ function getProductsforgallery(initialSlide) {
           }
       }
   }
-  xmlhttp.open("GET", "/js/data.json", true);
+  xmlhttp.open("GET", "/js/product.json", true);
+  xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+  xmlhttp.send();
+}
+
+function getProductsData(handleData) {
+  $.ajax({
+    url:"/js/product.json",
+    success:function(data) {
+      handleData(data);
+    }
+  });
+}
+
+function getHealthcondition(){
+  var dbParam, xmlhttp, myObj, x, pObj, txt = "";
+
+  getProductsData(function(output){
+    // console.log(output);
+    pObj = output;
+  });
+
+  xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+          myObj = JSON.parse(this.responseText);
+
+          // console.log(pObj);
+          // console.log(myObj);
+
+          for (x in myObj) {
+            // console.log(myObj[x].name);
+            // console.log(myObj[x].description);
+
+            txt += "<div class='panel panel-default'>";
+            txt += "<div class='panel-heading'>";
+            txt += "<h4 class='panel-title'>";
+            txt += "<a data-toggle='collapse' data-parent='#accordion' href='#collapse"+(x+1)+"'>"+myObj[x].name+"</a>";
+            txt += "</h4>";
+            txt += "</div>";
+            txt += "<div id='collapse"+(x+1)+"' class='panel-collapse collapse'>";
+            txt += "<div class='panel-body'>";
+            txt += "<h4>"+myObj[x].description+"</h4>";
+
+
+            for (i in myObj[x].product){
+              for (j in pObj) {
+                // console.log(pObj[j].cate_name);
+                // console.log(pObj[j].img);
+                if(myObj[x].product[i] == pObj[j].id){
+                  txt +="<div class='col-sm-3'>";
+                  txt +="<a href='product_gallery.php?pid="+pObj[j].id+"'>";
+                  txt +="<img src='image/product/"+pObj[j].img+"' width='70%' /></a>";
+                  txt +="<p class='g_product_name' style='color:" + pObj[j].colour + "'>"+ pObj[j].cate_name +"</p>"
+                  txt +="</div>";
+                }
+              }
+            }
+
+            txt += "</div>";
+            txt += "</div>";
+            txt += "</div>";
+            txt += "</div>";
+          }
+
+          document.getElementById("accordion").innerHTML = txt;
+      }
+  }
+  xmlhttp.open("GET", "/js/category.json", true);
   xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
   xmlhttp.send();
 }

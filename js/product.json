@@ -4,103 +4,129 @@
     "id": "1",
     "img": "keyora_milk_thistle_180caps_213x410.png",
     "name": "MILK THISTLE 180caps",
+    "cate_name": "Milk Thistle",
     "colour": "#972256",
-    "function": "LIVER & IMMUNE SYSTEM"
+    "function": "LIVER & IMMUNE SYSTEM",
+    "category": [3]
   },
   {
     "description": "Joint Key 4000 contains Green Lipped Mussel Extract and fish oil which are rich source of essential Omega3 fatty acids (EPA and DHA) and may help to maintain normal joint mobility, lubrication and cushioning.",
     "id": "2",
     "img": "keyora_joint_key_4000_200caps_250x493.png",
     "name": "JOINT KEY 4,000 200caps",
+    "cate_name": "Joint Key 4000",
     "colour": "#009683",
-    "function": "JOINT MOBILITY, LUBRICATION AND CUSHIONING"
+    "function": "JOINT MOBILITY, LUBRICATION AND CUSHIONING",
+    "category": [2]
   },
   {
     "description": "Joint Key 8000 is a high potency formula which contains New Zealand Green Lipped Mussel Extract, Agaricus Blazei Mushroom Extract, Fish Oil and Shark Cartilage. This natural joint support formula contains 8000mg equivalent fresh New Zealand Green Lipped Mussel which provides valuable nutrients that may support normal joint health.",
     "id": "3",
     "img": "keyora_joint_key_8000_200caps_250x493.png",
     "name": "JOINT KEY 8,000 200caps",
+    "cate_name": "Joint Key 8000",
     "colour": "#066e3a",
-    "function": "JOINT MOBILITY, LUBRICATION AND CUSHIONING"
+    "function": "JOINT MOBILITY, LUBRICATION AND CUSHIONING",
+    "category": [2,7]
   },
   {
     "description": "PROPOLIS with Zinc consists of Propolis which is a resinous mixture collected by bees from tree buds and other botanical sources. Propolis may assist to maintain the body’s immune defences for optimal health and wellbeing.",
     "id": "4",
     "img": "keyora_propolis_with_zinc_400caps_250x493.png",
     "name": "PROPOLIS WITH ZINC 400caps",
+    "cate_name": "Propolis with Zinc",
     "colour": "#e4a013",
-    "function": "IMMUNE SYSTEM & ANTIOXIDANT"
+    "function": "IMMUNE SYSTEM & ANTIOXIDANT",
+    "category": [6]
   },
   {
     "description": "SPIRULINA comprises a wide collection of nutrients, all high in antioxidants. People with busy and active lifestyles, athletes and vegetarians benefit from the Spirulina provides to the immune system. Regarded as nature’s superfood, spirulina may also assist to maintain healthy immune system, brain health and energy levels.",
     "id": "5",
     "img": "keyora_spirulina_500tabs_250x493.png",
     "name": "ORGANIC  SPIRULINA 500tabs",
+    "cate_name": "Organic Spirulina",
     "colour": "#33a1db",
-    "function": "CARDIOVASCULAR, BRAIN & GENERAL WELL-BEING"
+    "function": "CARDIOVASCULAR, BRAIN & GENERAL WELL-BEING",
+    "category": [3]
   },
   {
     "description": "Chaga Mushroom contains chaga mushroom, silkworm extract and agaricus blazei extract which may help to lower blood sugar level and keep normal blood pressure level. This product also may help to support healthy blood circulation, skin and bones.",
     "id": "6",
     "img": "keyora_chaga_mushroom_180caps_250x493.png",
     "name": "CHAGA MUSHROOM 180caps",
+    "cate_name": "Chaga Mushroom",
     "colour": "#724941",
-    "function": "BLOOD SUGAR AND PRESSURE LEVEL"
+    "function": "BLOOD SUGAR AND PRESSURE LEVEL",
+    "category": [1,7]
   },
   {
     "description": "LIQUID CALCIUM with Vitamin D3 contains calcium carbonate and Vitamin D3 in a liquid form. Vitamin D3 is added to assist calcium absorption. Liquid Calcium may support to maintain healthy bones and teeth.",
     "id": "7",
     "img": "keyora_liquid_calcium_400caps_250x493.png",
     "name": "LIQUID CALCIUM with VITAMIN D3 400caps",
+    "cate_name": "Liquid Calcium with Vitamin D3",
     "colour": "#0be4d7",
-    "function": "BONES & TEETH, NERVES SYSTEM"
+    "function": "BONES & TEETH, NERVES SYSTEM",
+    "category": [2,7]
   },
   {
     "description": "ROYAL JELLY is a natural source of nutrients as it provides amino acids, minerals, proteins, vitamins and 10-HDA. Energy and vitality may be assisted with Royal jelly and may assist your immune response and overall wellbeing.",
     "id": "8",
     "img": "keyora_royal_jelly_10hda_30mg_400caps_250x493.png",
     "name": "ROYAL JELLY\n10-HDA 30MG 400caps",
+    "cate_name": "Royal Jelly 10HDA 30mg",
     "colour": "#c59d07",
-    "function": "ENERGY & VITALITY"
+    "function": "ENERGY & VITALITY",
+    "category": [4,6]
   },
   {
     "description": "ROYAL JELLY contains highly concentrated nutrients such as amino acids, minerals, proteins, vitamins and unique substance that only exists in Royal Jelly, 10-HDA (10-Hydroxy-2-decenoic-Acid). This product may assist to energy production and may help to maintain healthy skin and hair. Royal Jelly is fed to the Queen bee only, boosting her growth rate and extending her life span.",
     "id": "9",
     "img": "keyora_royal_jelly_10hda_200caps_250x493.png",
     "name": "ROYAL JELLY\n10HDA 200caps",
+    "cate_name": "Royal Jelly 10HDA6",
     "colour": "#c4bb87",
-    "function": "ENERGY & VITALITY & IMMUNE"
+    "function": "ENERGY & VITALITY & IMMUNE",
+    "category": [4,6]
   },
   {
     "description": "Family Multi features minerals, vitamins and trace elements that are often lacking in our daily diet. Multivitamins, minerals and elements are tailored to optimum nutrition in our busy modern lifestyles. This product is designed for both adults and teenagers who seek a supplement to improve daily dietary intake of important nutrients and for those seeking a supplement that may assist to maintain their well-being.",
     "id": "10",
     "img": "keyora_family_multi_300tabs_250x493.png",
     "name": "25 IN 1 FAMILY MULTI\nONE-A-DAY 300tabs",
+    "cate_name": "25in1 Family Multi 1-A-Day",
     "colour": "#498bce",
-    "function": "GENERAL WELL-BEING"
+    "function": "GENERAL WELL-BEING",
+    "category": [4]
   },
   {
     "description": "Senior Multi features 25 vitamins and minerals including calcium, magnesium, zinc, folic acid, royal jelly, propolis, marigold and potassium iodide. Both multivitamins and minerals are tailored to senior age group’s daily nutritional needs. This product is designed for senior adults who seek a supplement to improve daily dietary intake of important nutrients and for those seeking a supplement that may assist to maintain their well-being.",
     "id": "11",
     "img": "keyora_senior_multi_300caps_250x493.png",
     "name": "25 IN 1 SENIOR MULTI\nONE-A-DAY 300tabs",
+    "cate_name": "25in1 Senior  Multi 1-A-Day ",
     "colour": "#7b7d7d",
-    "function": "GENERAL WELL-BEING"
+    "function": "GENERAL WELL-BEING",
+    "category": [4,7]
   },
   {
     "description": "Cal / Mg / Zn with Vitamin D contains calcium, magnesium, zinc and vitamin d3. Cal/Mg/Zn with Vitamin D may help to maintain healthy immune system, nerve and muscle function and healthy teeth and bones.",
     "id": "12",
     "img": "keyora_cal_mg_zn_300tabs_250x493.png",
     "name": "Cal / Mg / Zn\nwith VITAMIN D 300tabs",
+    "cate_name": "Cal/Mg/Zn with Vitamin D",
     "colour": "#b72814",
-    "function": "BONES & TEETH, IMMUNE SYSTEM"
+    "function": "BONES & TEETH, IMMUNE SYSTEM",
+    "category": [4]
   },
   {
     "description": "Fish Oil is a natural source of the essential Omega-3 fatty acids Eicosapentaenoic acid and Docosahexaenoic acid which is extracted from wild fish. Omega-3 fatty acids is important for cardiovascular health but it is often insufficient in modern life style. This product may help to reduce inflammation and joint swelling and may assist to maintain normal eye and brain function.",
     "id": "13",
     "img": "keyora_fish_oil_200caps_250x493.png",
     "name": "FISH OIL 200caps",
+    "cate_name": "Fish Oil",
     "colour": "#083e88",
-    "function": "HEART & BRAIN"
+    "function": "HEART & BRAIN",
+    "category": [1,5]
   }
 ]

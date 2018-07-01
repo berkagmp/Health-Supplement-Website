@@ -1,7 +1,7 @@
 node_xj = require("xls-to-json");
   node_xj({
-    input: "product.xls",  // input xls
-    output: "output.json", // output json
+    input: "healthcondition.xls",  // input xls
+    output: "healthoutput.json", // output json
     sheet: "Sheet1"  // specific sheetname
   }, function(err, result) {
     if(err) {
